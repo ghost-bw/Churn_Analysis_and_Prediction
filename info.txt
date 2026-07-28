@@ -1,0 +1,25 @@
+Model path found: models/logistic_regression_best_model.joblib
+Successfully loaded model. Model class: <class 'sklearn.pipeline.Pipeline'>
+Model is a Pipeline with steps:
+  preprocessor: <class 'sklearn.compose._column_transformer.ColumnTransformer'>
+  model: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Dataset path found: data/exported_churn_data.csv
+Dataset shape: (521, 21)
+Columns:
+['customerid', 'subscription_start_date', 'subscription_type', 'renewal_date', 'plan_type', 'contract_type', 'cancellation_date', 'cancellation_reason', 'monthly_charges', 'cltv', 'churn_score', 'churn_flag', 'customer_name', 'country', 'state', 'gender', 'dob', 'complaint_date', 'escalations', 'csat_score', 'complaint_count']
+
+Unique values for categorical features:
+  subscription_type: ['Refferal', 'Paid', 'Organic']
+  plan_type: ['Standard', 'Premium', 'Basic']
+  contract_type: ['Annual', 'Monthly']
+  country: ['India', 'Nepal']
+  state: ['Maharashtra', 'Karnataka', 'Delhi', 'Nagaland', 'Meghalaya', 'Rajasthan', 'Kathmandu', 'Telangana', 'Uttar Pradesh', 'Tamil Nadu', 'Gujarat', 'West Bengal']
+  gender: ['Male', 'Female']
+  escalations: ['Y', 'N']
+
+Summary of numeric features:
+  monthly_charges: min=6.99, max=92.99, median=13.99
+  cltv: min=31, max=2185, median=418.0
+  churn_score: min=3, max=99, median=55.0
+  csat_score: min=10.0, max=95.0, median=53.0
+  complaint_count: min=1.0, max=3.0, median=1.0

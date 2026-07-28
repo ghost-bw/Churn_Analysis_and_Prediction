@@ -1,0 +1,43 @@
+=== Logistic Regression ===
+              precision    recall  f1-score   support
+
+           0       0.88      0.69      0.78        75
+           1       0.50      0.77      0.61        30
+
+    accuracy                           0.71       105
+   macro avg       0.69      0.73      0.69       105
+weighted avg       0.77      0.71      0.73       105
+
+
+=== Decision Tree ===
+              precision    recall  f1-score   support
+
+           0       0.76      0.76      0.76        75
+           1       0.40      0.40      0.40        30
+
+    accuracy                           0.66       105
+   macro avg       0.58      0.58      0.58       105
+weighted avg       0.66      0.66      0.66       105
+
+
+=== Random Forest ===
+              precision    recall  f1-score   support
+
+           0       0.78      0.88      0.82        75
+           1       0.55      0.37      0.44        30
+
+    accuracy                           0.73       105
+   macro avg       0.66      0.62      0.63       105
+weighted avg       0.71      0.73      0.72       105
+
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+           0       0.82      0.89      0.85        75
+           1       0.65      0.50      0.57        30
+
+    accuracy                           0.78       105
+   macro avg       0.73      0.70      0.71       105
+weighted avg       0.77      0.78      0.77       105
+
