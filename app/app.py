@@ -319,10 +319,10 @@ if navigation == "Home":
         st.markdown('<div style="background-color:rgba(128,128,128,0.03);border-radius:8px;padding:20px;border:1px solid rgba(128,128,128,0.1);margin-top:20px;">', unsafe_allow_html=True)
         st.markdown("#### 💡 Strategic Business Insights from Given Dataset")
         st.markdown("""
-        * **1. High Monthly Contract Churn**: Customers on **Monthly** contracts exhibit significantly higher churn. *Action*: Offer **15% discount** or **1 month free** for switching to Annual.
-        * **2. Support Tickets & Escalation Impact**: Support escalations are a leading churn indicator. *Action*: Establish a "Priority Retention Support" team to resolve within 24 hours.
-        * **3. High Billing Thresholds**: Churn risk rises steeply for monthly charges **above $50**. *Action*: Audit these accounts and introduce bundled or down-sell options.
-        * **4. Referral Acquisition**: Customers from **Referrals** display longer tenures and lower attrition. *Action*: Expand referral programs with billing credits for each successful signup.
+        * **1. High Monthly Contract Churn**: Monthly contracts churn at **34.1%**, compared with **20.2%** for Annual contracts. *Action*: Offer **15% discount** or **1 month free** for switching to Annual.
+        * **2. Support Escalation Impact**: Escalated customers churn at **62.1%**, compared with **24.0%** for non-escalated customers. *Action*: Establish a "Priority Retention Support" team to resolve escalations within 24 hours.
+        * **3. Basic Plan Attrition**: Basic plan customers have the highest churn rate at **40.4%**, while Premium customers have the lowest churn rate at **18.9%**. *Action*: Review Basic plan pricing, content value, and onboarding.
+        * **4. Acquisition Channel Review**: Paid customers show the lowest churn rate at **26.7%**, while Referral customers churn at **30.6%** in this dataset. *Action*: Review referral quality and post-signup engagement before expanding incentives.
         """)
         st.markdown('</div>', unsafe_allow_html=True)
         st.write("")
